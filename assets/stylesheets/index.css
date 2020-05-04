@@ -13,7 +13,7 @@ body{
 }
 form{
     width: 30%;
-    height: 105vh;
+    height: auto;
     border: 1px solid #aaa;
     background: white;
     font-size: large;
@@ -85,6 +85,7 @@ button{
 .form-top .info{
     margin-top: 20px;
 }
+
 .terms{
     margin-top: 30px;
     padding: 0 50px;
@@ -93,6 +94,11 @@ button{
     color: #8a8585;
 }
 .form-footer{
-    background-color: #8a8585;
+    background:#bbb;
     font-size: 10px;
+    padding:2em;
+ 
+}
+a{
+    text-decoration: none;
 }
