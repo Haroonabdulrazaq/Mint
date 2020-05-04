@@ -12,7 +12,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 form{
-    width: 30%;
+    width: 70%;
     height: 105vh;
     border: 1px solid #aaa;
     background: white;
@@ -23,7 +23,6 @@ form{
     text-align: center;
     color:#444;
     font-weight: lighter;
-    
 }
 .info{
     margin:0 1.5em;
@@ -35,60 +34,28 @@ ul{
 }
 ul li {
     text-align: center;
-    height: 130px;
 }
 label{
     display: block;
     text-align: left;
-    margin-left: 15px;
-    font-size: 14px;
-    line-height: 30px;
 }
 input{
+    width: 50vw;
     height: 3em;
     border-radius: 5px;
-    border:1px solid #C1C5C8;
-}
-input ::placeholder{
-    padding-left: 20px;
+    border:1px solid #eee;
 }
 form input{
-    width: 325px;
+    width: 50vw;
     margin: 3%;
 }
 .phone-info{
-    font-size: 10px;
+    font-size: small;
     padding:0 0 1em;
     text-align: center;
-    float: left;
-    margin-left: 15px;
+
 }
 
 form p {
     text-align: center;
-}
-button{
-    background-color: #0077C5;
-    border: none;
-    width: 325px;
-    border-radius: 3px;
-    height: 40px;
-    color: #ffffff;
-  
-    margin-left: 4.7px;
-    margin-right: 4.7px;
-}
-.form-top{
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
-.form-top .info{
-    margin-top: 20px;
-}
-.terms{
-    margin-top: 30px;
-    padding: 0 50px;
-    font-style: italic;
-    font-size: 12px;
-    color: #8a8585;
 }
