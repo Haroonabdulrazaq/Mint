@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background:#eee;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+form{
+    width: 70%;
+    height: 105vh;
+    border: 1px solid #aaa;
+    background: white;
+    font-size: large;
+    font-weight: 200;
+    margin-top: 5em;
+    border-radius: 3px;
+    text-align: center;
+    color:#444;
+    font-weight: lighter;
+}
+.info{
+    margin:0 1.5em;
+    font-size: small;
+}
+ul{
+    padding:0 1em;
+    list-style-type: none;
+}
+ul li {
+    text-align: center;
+}
+label{
+    display: block;
+    text-align: left;
+}
+input{
+    width: 50vw;
+    height: 3em;
+    border-radius: 5px;
+    border:1 px solid #eee ;
+}
+form input{
+    width: 50vw;
+    margin: 3%;
+}
+.phone-info{
+    font-size: small;
+    padding:0 0 1em;
+    text-align: center;
+
+}
+
+form p {
+    text-align: center;
+}
