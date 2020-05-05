@@ -5,11 +5,13 @@
 }
 body{
     background:#eee;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main-wrapper{
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    font-family: Arial, Helvetica, sans-serif;
 }
 form{
     width: 30%;
@@ -28,6 +30,10 @@ form{
 .info{
     margin:0 1.5em;
     font-size: small;
+}
+a{
+    text-decoration: none;
+    color: #0077C5
 }
 ul{
     padding:0 1em;
@@ -85,7 +91,6 @@ button{
 .form-top .info{
     margin-top: 20px;
 }
-
 .terms{
     margin-top: 30px;
     padding: 0 50px;
@@ -98,9 +103,21 @@ button{
     font-size: 10px;
     padding:2em;
     margin-top: 40px;
- 
 }
-a{
-    text-decoration: none;
-    color: #0077C5
+.footer{
+    text-align: center;
+    font-size: .8em;
+    margin: 2em 0;
+    color: grey;
+}
+.footer ul li{
+    display: inline;
+    padding: 5px;
+}
+.footer p,a{
+    padding: 0.3em;
+    color:#444;
+}
+.footer a:hover{
+    text-decoration: underline;
 }
