@@ -20,8 +20,15 @@ body{
     height: 35px;
     border-radius:5px;
     padding-right: 8px;
-    border: 0.8px solid black;
     margin-right: 20px;
+}
+.signup img{
+    display: inline-block;
+    width: 16px;
+    height: 12px;
+    margin-top: 2px;
+    margin-right: 4px;
+    vertical-align: text-top; 
 }
 .header img{
     display: inline-block;
@@ -37,18 +44,9 @@ body{
 .header a{
     color:#0077C5;
 }
-.main-wrapper{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
 .header span{
     text-align: right;
     font-size: 12px;
-}
-.mini-header{
-    bottom: 0;
 }
 .logo{
     display: flex;
@@ -59,13 +57,21 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: center;
-
 }
 .sub-logos img{
     width: 30px;
     height: 30px;
 }
-
+.sub-logos span{
+    margin:0.5em;
+    color:#999;   
+}
+.main-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
 form{
     width: 30%;
     height: auto;
@@ -73,7 +79,7 @@ form{
     background: white;
     font-size: large;
     font-weight: 200;
-    margin-top: 5em;
+    margin-top: 1em;
     border-radius: 3px;
     text-align: center;
     color:#444;
@@ -135,15 +141,10 @@ button{
     color: #ffffff;
     margin-left: 4.7px;
     margin-right: 4.7px;
+    cursor: pointer;
+    border: 0.8px solid black;
 }
-.signup img{
-    display: inline-block;
-    width: 16px;
-    height: 12px;
-    margin-top: 2px;
-    margin-right: 4px;
-    vertical-align: text-top; 
-}
+
 .form-top{
     margin-top: 30px;
     margin-bottom: 30px;
