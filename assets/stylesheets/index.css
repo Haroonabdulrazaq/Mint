@@ -1,3 +1,8 @@
+/* url(https://plugin.intuitcdn.net/identity-authn-core-ui/scripts/../images/lock-fail@3x-54ece77c.png) 
+no-repeat 0% 50% / 21px 21px */
+
+
+
 *{
     margin: 0;
     padding: 0;
@@ -41,15 +46,13 @@ body{
     margin-right: 4px;
     vertical-align: text-top;
 }
-.header span {
+.header div{
    line-height: 20px;
+   text-align: right;
+   font-size: 12px;
 }
 .header a{
     color:#0077C5;
-}
-.header span{
-    text-align: right;
-    font-size: 12px;
 }
 .logo{
     display: flex;
@@ -129,6 +132,10 @@ form input{
     width: 325px;
     margin: 3%;
 }
+.password{
+     
+}
+ 
 .phone-info{
     font-size: 10px;
     padding:0 0 1em;
