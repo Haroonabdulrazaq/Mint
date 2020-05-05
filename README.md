@@ -9,6 +9,7 @@
 - CSS3
 - FLEXBOX
 
+[LIVE DEMO LINK](https://haroonabdulrazaq.github.io/Mint/ )
 
 # Getting Started 🚀
 
