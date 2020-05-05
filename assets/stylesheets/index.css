@@ -47,6 +47,24 @@ body{
     text-align: right;
     font-size: 12px;
 }
+.mini-header{
+    bottom: 0;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.sub-logos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+.sub-logos img{
+    width: 30px;
+    height: 30px;
+}
 
 form{
     width: 30%;
@@ -115,9 +133,16 @@ button{
     border-radius: 3px;
     height: 40px;
     color: #ffffff;
-  
     margin-left: 4.7px;
     margin-right: 4.7px;
+}
+.signup img{
+    display: inline-block;
+    width: 16px;
+    height: 12px;
+    margin-top: 2px;
+    margin-right: 4px;
+    vertical-align: text-top; 
 }
 .form-top{
     margin-top: 30px;
