@@ -7,6 +7,19 @@ body{
     background:#eee;
     font-family: Arial, Helvetica, sans-serif;
 }
+.header{
+    width: 100%;
+    height: auto;
+    margin-top: 1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.header button{
+    width: 4em;
+    height: 40px;
+    border-radius:5px;
+}
 .main-wrapper{
     display: flex;
     flex-direction: row;
