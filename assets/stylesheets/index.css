@@ -10,15 +10,32 @@ body{
 .header{
     width: 100%;
     height: auto;
-    margin-top: 1em;
+    margin-top: 0.6em;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
 }
 .header button{
-    width: 4em;
-    height: 40px;
+    width: 7.8em;
+    height: 35px;
     border-radius:5px;
+    padding-right: 8px;
+    border: 0.8px solid black;
+    margin-right: 20px;
+}
+.header img{
+    display: inline-block;
+    width: 16px;
+    height: 12px;
+    margin-top: 2px;
+    margin-right: 4px;
+    vertical-align: text-top;
+}
+.header span {
+   line-height: 20px;
+}
+.header a{
+    color:#0077C5;
 }
 .main-wrapper{
     display: flex;
@@ -26,6 +43,11 @@ body{
     justify-content: center;
     align-items: center;
 }
+.header span{
+    text-align: right;
+    font-size: 12px;
+}
+
 form{
     width: 30%;
     height: auto;
