@@ -18,12 +18,12 @@ body {
   justify-content: flex-end;
 }
 
-.header button {
+.signin-btn {
   width: 7.8em;
   height: 35px;
   border-radius: 5px;
   padding-right: 8px;
-  margin-right: 30px;
+  margin-left: 10px;
 }
 
 .signup img {
@@ -110,7 +110,7 @@ form {
   margin: 0 1.5em;
 }
 
-a {
+.header-link {
   text-decoration: none;
   color: #0077c5;
 }
@@ -203,7 +203,7 @@ button {
 
 .footer {
   text-align: center;
-  font-size: .8em;
+  font-size: 0.8em;
   margin: 2em 0;
   color: grey;
 }
@@ -213,16 +213,26 @@ button {
   padding: 5px;
 }
 
-* a {
+.term-link {
+  color: #0077c5;
+  text-decoration: none;
+  padding: 0.5em;
+}
+
+.captcha {
+  text-decoration: none;
   color: #0077c5;
 }
 
-.footer p,
-a {
-  padding: 0.3em;
-  color: #444;
+.footer-link {
+  padding-bottom: 1em;
 }
 
-.footer a:hover {
+.footer-links {
+  color: #444;
+  text-decoration: none;
+}
+
+.footer-links:hover {
   text-decoration: underline;
 }
