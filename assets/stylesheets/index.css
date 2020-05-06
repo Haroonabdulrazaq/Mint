@@ -104,7 +104,6 @@ form {
   border-radius: 3px;
   text-align: center;
   color: #444;
-  font-weight: lighter;
 }
 
 .info {
@@ -159,7 +158,6 @@ form p {
 
 button {
   background-color: #0077c5;
-  border: none;
   width: 325px;
   border-radius: 3px;
   height: 40px;
