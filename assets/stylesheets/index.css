@@ -1,8 +1,6 @@
 /* url(https://plugin.intuitcdn.net/identity-authn-core-ui/scripts/../images/lock-fail@3x-54ece77c.png) 
 no-repeat 0% 50% / 21px 21px */
 
-
-
 * {
   margin: 0;
   padding: 0;
@@ -60,7 +58,7 @@ body {
 }
 
 .header a {
-  color: #0077C5;
+  color: #0077c5;
 }
 
 .logo {
@@ -78,7 +76,6 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: center;
-
 }
 
 .sub-logos img {
@@ -90,9 +87,7 @@ body {
 .sub-logos span {
   margin: 4px;
   color: #999;
-
 }
-
 
 .main-wrapper {
   display: flex;
@@ -113,17 +108,15 @@ form {
   text-align: center;
   color: #444;
   font-weight: lighter;
-
 }
 
 .info {
   margin: 0 1.5em;
-  font-size: small;
 }
 
 a {
   text-decoration: none;
-  color: #0077C5;
+  color: #0077c5;
 }
 
 ul {
@@ -147,11 +140,11 @@ label {
 input {
   height: 3em;
   border-radius: 5px;
-  border: 1px solid #C1C5C8;
+  border: 1px solid #c1c5c8;
 }
 
 form input {
-  width: 96;
+  width: 325px;
   margin: 3%;
 }
 
@@ -168,12 +161,12 @@ form p {
 }
 
 button {
-  background-color: #0077C5;
+  background-color: #0077c5;
   border: none;
   width: 325px;
   border-radius: 3px;
   height: 40px;
-  color: #ffffff;
+  color: #fff;
   margin-left: 4.7px;
   margin-right: 4.7px;
   cursor: pointer;
@@ -187,18 +180,15 @@ button {
 
 .form-top .info {
   margin-top: 20px;
+  color: #4c4c4c;
+  font-size: 14px;
 }
 
 .form-top h3 {
-  color: #4C4C4C;
+  color: #4c4c4c;
   line-height: 1.1;
   font-weight: 400;
   font-size: 24px;
-}
-
-.form-top .info {
-  color: #4C4C4C;
-  font-size: 14px;
 }
 
 .terms {
@@ -210,7 +200,7 @@ button {
 }
 
 .form-footer {
-  background: #ECEEF1;
+  background: #eceef1;
   font-size: 10px;
   padding: 2em;
   margin-top: 40px;
@@ -228,6 +218,10 @@ button {
   padding: 5px;
 }
 
+* a {
+  color: #0077c5;
+}
+
 .footer p,
 a {
   padding: 0.3em;
@@ -236,8 +230,4 @@ a {
 
 .footer a:hover {
   text-decoration: underline;
-}
-
-* a {
-  color: #0077C5;
 }
