@@ -138,6 +138,18 @@ input {
   border: 1px solid #c1c5c8;
 }
 
+#email {
+  background: white;
+}
+
+#number {
+  background: white;
+}
+
+#password {
+  background: white;
+}
+
 form input {
   width: 90%;
 }
