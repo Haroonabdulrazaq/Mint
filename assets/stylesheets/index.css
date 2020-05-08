@@ -138,15 +138,15 @@ input {
   border: 1px solid #c1c5c8;
 }
 
-#email {
+.email {
   background: white;
 }
 
-#number {
+.number {
   background: white;
 }
 
-#password {
+.password {
   background: white;
 }
 
