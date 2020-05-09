@@ -138,15 +138,7 @@ input {
   border: 1px solid #c1c5c8;
 }
 
-.email {
-  background: white;
-}
-
-.number {
-  background: white;
-}
-
-.password {
+.email .number .password {
   background: white;
 }
 
