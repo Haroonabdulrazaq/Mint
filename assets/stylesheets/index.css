@@ -26,7 +26,6 @@ body {
   margin-left: 10px;
 }
 
-
 header img {
   display: inline-block;
   width: 16px;
@@ -41,11 +40,24 @@ header img {
   padding-top: 10px;
 }
 
+ul {
+  list-style-type: none;
+}
+
+ul li {
+  text-align: center;
+  height: 130px;
+}
+
 .signup ul li {
   display: inline-block;
   list-style: none;
   text-decoration: none;
   font-size: 18px;
+}
+
+.header a {
+  color: #0077c5;
 }
 
 .signup ul li a {
@@ -66,10 +78,6 @@ header img {
   font-size: 12px;
 }
 
-.header a {
-  color: #0077c5;
-}
-
 .logo {
   display: flex;
   flex-direction: row;
@@ -84,7 +92,6 @@ header img {
 .sub-logos {
   text-align: center;
   margin-bottom: -100px;
-  ;
 }
 
 .sub-logos ul li {
@@ -133,15 +140,6 @@ form {
 .learn-more {
   text-decoration: none;
   color: #0077c5;
-}
-
-ul {
-  list-style-type: none;
-}
-
-ul li {
-  text-align: center;
-  height: 130px;
 }
 
 label {
