@@ -26,26 +26,38 @@ body {
   margin-left: 10px;
 }
 
-.signup img {
+
+header img {
   display: inline-block;
   width: 16px;
   height: 12px;
   margin-top: 2px;
   margin-right: 4px;
-  vertical-align: text-top;
+  vertical-align: middle;
+}
+
+.signup {
+  text-align: center;
+  padding-top: 10px;
+}
+
+.signup ul li {
+  display: inline-block;
+  list-style: none;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.signup ul li a {
+  vertical-align: middle;
+}
+
+.signup img {
+  vertical-align: middle;
 }
 
 .mini-header {
   margin-top: 20px;
-}
-
-.header img {
-  display: inline-block;
-  width: 16px;
-  height: 12px;
-  margin-top: 2px;
-  margin-right: 4px;
-  vertical-align: text-top;
 }
 
 .header div {
@@ -70,20 +82,28 @@ body {
 }
 
 .sub-logos {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+  text-align: center;
+  margin-bottom: -100px;
+  ;
+}
+
+.sub-logos ul li {
+  display: inline-block;
+  list-style: none;
+  text-decoration: none;
+  font-size: 18px;
+  color: #615f5f;
+  padding-left: 3px;
+}
+
+.sub-logos .spanz {
+  vertical-align: middle;
 }
 
 .sub-logos img {
   width: 24px;
   height: 24px;
-  margin-right: 2px;
-}
-
-.sub-logos span {
-  margin: 4px;
-  color: #999;
+  vertical-align: middle;
 }
 
 .main-wrapper {
