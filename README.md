@@ -41,7 +41,7 @@ $ cd Mint
 
 - Github: [@githubhandle](https://github.com/Haroonabdulrazaq)
 - Twitter: [@twitterhandle](https://twitter.com/hanq_o)
-- Linkedin: [linkedin](https://www.linkedin.com/in/haroon-abdulrazaq-817906100/)
+- Linkedin: [linkedin](https://www.linkedin.com/in/haroonabdulrazaq)
 
 ## Show your support
 
