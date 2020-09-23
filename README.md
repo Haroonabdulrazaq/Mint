@@ -1,6 +1,6 @@
 # MINT SIGNUP PAGE
 
- HTML FORMS
+This project is tailored to better understand HTML Forms and CSS Styling using Grid and Flexbox. by cloning Mint clone Sign Up form. 
     
 
 ## Built With
@@ -8,6 +8,11 @@
 - HTML5
 - CSS3
 - FLEXBOX
+
+## Screenshot
+![screenshot](./assets/img/Screenshot.png)
+
+# Getting Started 🚀
 
 [LIVE DEMO LINK](https://haroonabdulrazaq.github.io/Mint/ )
 
@@ -27,6 +32,20 @@ $ git clone https://github.com/Haroonabdulrazaq/Mint
 $ cd Mint
 
 ```
+
+## Set up
+- Clone this Project to your local machine
+- Change directory into this project
+- Open it in your prefered IDE(Integrated Development Environment)
+## Prerequisite
+- Integrated Development Evnvironment
+
+## Test
+- [HTML Validator](https://validator.w3.org/)
+- CSS code linters
+
+## Deployment
+- Deployed Using Github ```gh-pages```
 
 ## Authors
 
@@ -48,7 +67,6 @@ $ cd Mint
 Give a ⭐️ if you like this project!
 
 ## Acknowledgments
-
 - We'd like to thank our standup group for reviewing our project.
 - We also acknowledge Microverse, the global remote school for developers.
 - Lastly we appreciate The Odin Project for creating the project and Flexbox Zombies for teaching Flexbox in a fun way.
