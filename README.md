@@ -12,7 +12,7 @@ This project is tailored to better understand HTML Forms and CSS Styling using G
 ## Screenshot
 ![screenshot](./assets/img/Screenshot.png)
 
-# Getting Started 🚀
+# Live Demo Link 🚀
 
 [LIVE DEMO LINK](https://haroonabdulrazaq.github.io/Mint/ )
 
